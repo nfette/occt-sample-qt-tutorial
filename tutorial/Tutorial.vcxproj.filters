@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="LRELEASE">
+      <UniqueIdentifier>{E0D8C965-CC5F-43d7-AD63-FAEF0BBC0F85}-lrelease</UniqueIdentifier>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="LRELEASE">
+      <UniqueIdentifier>{E0D8C965-CC5F-43d7-AD63-FAEF0BBC0F85}-lrelease</UniqueIdentifier>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Copy">
+      <UniqueIdentifier>{E0D8C965-CC5F-43d7-AD63-FAEF0BBC0F85}-copy_res</UniqueIdentifier>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Copy">
+      <UniqueIdentifier>{E0D8C965-CC5F-43d7-AD63-FAEF0BBC0F85}-copy_res</UniqueIdentifier>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Interface\src\Application.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\ApplicationCommon.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ApplicationTut.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\DocumentCommon.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DocumentTut.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\MDIWindow.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MakeBottle.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\Material.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Interface\src\Translate.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\Transparency.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\View.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Interface\src\Application.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\src\ApplicationCommon.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\ApplicationTut.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\Common\src\CommonSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\Common\src\DocumentCommon.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\DocumentTut.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\Interface\src\IESample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\Common\src\MDIWindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\src\Material.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Interface\src\Translate.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\src\Transparency.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\src\View.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="win64\vc11\src\moc_Application.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\srcd\moc_Application.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\src\moc_ApplicationCommon.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\srcd\moc_ApplicationCommon.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\src\moc_ApplicationTut.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\srcd\moc_ApplicationTut.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\src\moc_DocumentCommon.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\srcd\moc_DocumentCommon.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\src\moc_DocumentTut.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\srcd\moc_DocumentTut.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\src\moc_MDIWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\srcd\moc_MDIWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\src\moc_Material.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\srcd\moc_Material.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\src\moc_Translate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\srcd\moc_Translate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\src\moc_Transparency.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\srcd\moc_Transparency.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\src\moc_View.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win64\vc11\srcd\moc_View.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Common\src\Common-icon.ts">
+      <Filter>LRELEASE</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\src\Common-string.ts">
+      <Filter>LRELEASE</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\Tutorial-icon.ts">
+      <Filter>LRELEASE</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\Tutorial-string.ts">
+      <Filter>LRELEASE</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\Bottle.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\SampleImportExport.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\cascade.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\close.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\cursor_rotate.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\cursor_zoom.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\document.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\help.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\lamp.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\new.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\tile.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\tool-shading.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\tool_color.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\tool_delete.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\tool_material.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\tool_shading.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\tool_transparency.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\tool_wireframe.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_axo.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_back.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_bottom.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_comp_off.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_comp_on.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_fitall.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_fitarea.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_front.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_glpan.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_left.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_pan.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_reset.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_right.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_rotate.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_top.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Common\res\view_zoom.png">
+      <Filter>Copy</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
